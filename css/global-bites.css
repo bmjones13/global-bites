@@ -7,12 +7,24 @@
 footer {
     background-color: #B01B08;
     color: #fff;
+    padding: 50px 0 50px 0;
 }
 
 footer a {
     color: #b5c386;
+    font-size: 16px;
+    text-decoration: none;
 }
 
 footer a:hover {
+	color: #b5c386;
 
+}
+
+footer h2 {
+	font-size: 22px;
+}
+
+footer ul {
+	list-style-type: none;
 }
