@@ -1,5 +1,30 @@
 /* Navigation styles */
 
+header nav {
+      padding:3em 0;
+
+}      
+
+header nav ul {
+	display: inline;
+	text-align: right;
+	list-style-type: none;	
+}
+
+header nav a {
+	color: #CE6426;
+    font-size: 20px;
+    text-decoration: none;
+    float:right;
+    margin:0 15px;
+    padding-bottom: 20px;
+}
+
+header nav a:hover {
+	color: #CE6426;
+
+}
+
 
 
 /* Footer styles */
@@ -7,7 +32,7 @@
 footer {
     background-color: #B01B08;
     color: #fff;
-    padding: 50px 0 50px 0;
+    padding: 45px 0 45px 0;
 }
 
 footer a {
