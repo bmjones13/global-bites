@@ -28,11 +28,12 @@ header nav a:hover {
 }
 
 .infographic {
-    background-image: "images/Cityscape.png";
+    background-image: url(../images/Cityscape_1.png);
     background-color: #FBFBF8; 
     background-repeat: no-repeat;
     background-position: center;
-    padding: 6px 0 21px 0;
+    background size: cover;
+    padding: 4em; 0;
     text-align: center;
     display: block;
 }
@@ -46,7 +47,6 @@ header nav a:hover {
     font-size: 18px;
     color: #3a956a;
     line-height: 20px;
-
 }
 
 
