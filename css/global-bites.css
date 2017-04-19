@@ -28,11 +28,13 @@ header nav a:hover {
 }
 
 .infographic {
+    background-image: "images/Cityscape.png";
     background-color: #FBFBF8; 
-    background-image: url'images/Cityscape.png';
     background-repeat: no-repeat;
     background-position: center;
     padding: 6px 0 21px 0;
+    text-align: center;
+    display: block;
 }
 
 .infographic h2 {
@@ -44,7 +46,12 @@ header nav a:hover {
     font-size: 18px;
     color: #3a956a;
     line-height: 20px;
+
 }
+
+
+
+/* Buttons */
 
 .button {
     border-radius: 4px;
