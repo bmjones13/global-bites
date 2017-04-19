@@ -27,7 +27,36 @@ header nav a:hover {
 
 }
 
+.infographic {
+    background-color: #FBFBF8; 
+    background-image: url'images/Cityscape.png';
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 6px 0 21px 0;
+}
 
+.infographic h2 {
+    font-size: 24px;
+    color: #275f43;
+}
+
+.infographic p {
+    font-size: 18px;
+    color: #3a956a;
+    line-height: 20px;
+}
+
+.button {
+    border-radius: 4px;
+    color:#fff;
+    background: #3A956A;
+    border: 2px solid #359668;
+    box-shadow: 0px 2px 0px 0px #275f43;
+}
+
+.button a {
+    font-size: 16px;
+}
 
 /* Footer styles */
 
