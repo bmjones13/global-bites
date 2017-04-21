@@ -3,11 +3,11 @@
 header nav {
       padding:30px 10px;
       background: #FBFBF8;
-}      
+}
 
 header nav ul {
 	text-align: right;
-	list-style-type: none;	
+	list-style-type: none;
 }
 
 header nav li {
@@ -29,7 +29,7 @@ header nav a:hover {
 
 .infographic {
     background-image: url(../images/cityscape_icons.png);
-    background-color: #FBFBF8; 
+    background-color: #FBFBF8;
     background-repeat: no-repeat;
     background-position: top center;
     background size: cover;
@@ -38,12 +38,13 @@ header nav a:hover {
     text-align: center;
 }
 
+
 .infographic h2 {
     font-size: 24px;
     color: #275f43;
     margin-top: 60px;
     text-align: center;
-    
+
 }
 .infographic p {
     font-size: 18px;
@@ -55,7 +56,7 @@ header nav a:hover {
 
 .infographic img {
     margin-top: 5px;
-    
+
 
 }
 
