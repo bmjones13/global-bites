@@ -27,6 +27,67 @@ header nav a:hover {
 
 }
 
+.download-app {
+    background-image: url(../images/People_eating.png);
+    width: 100%;
+    height: 435px;
+    background-repeat: no-repeat;
+    background-position: top center; 
+    background-size: cover;
+    text-align: center;
+    padding: 4em 0;
+   
+
+}   
+
+.buttonpeople {
+    background: #CE6426;
+    border-radius: 4px;
+    color:#fff;
+    border: 2px solid #CE6426;
+    box-shadow: 0px 2px 0px 0px #B74604;
+    text-decoration: none;
+    padding: 10px 30px;
+    position: relative;
+    bottom: -280px;
+    left: 195px;
+    right: 10px;
+
+}
+
+.buttonpeople a {
+    font-size: 18px;
+
+}
+
+.download-app p{
+    font-size: 18px;
+    color: #000;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 300px;
+    padding: 0 20 0 0;
+    position: relative;
+    left: 195px;
+    bottom: -5px;
+}
+
+.phone  {  
+    position: relative;
+    right: 100px;
+    top: 100px;
+    padding: 100px;
+ 
+}
+
+.apps {
+    position: relative;
+    bottom: -280px;
+    right: 50px;
+    
+
+}
+
 .infographic {
     background-image: url(../images/cityscape_icons.png);
     background-color: #FBFBF8;
@@ -38,6 +99,13 @@ header nav a:hover {
     text-align: center;
 }
 
+@media (max-width: 1000px) {
+    .infographic {
+     background-image: none;
+     padding: 4em 4em 4em 4em;  
+    }
+    
+}
 
 .infographic h2 {
     font-size: 24px;
@@ -60,6 +128,9 @@ header nav a:hover {
 
 }
 
+.check-icon {
+    padding: 6px;
+}
 /* Buttons */
 
 .button {
