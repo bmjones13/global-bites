@@ -91,6 +91,10 @@ header nav a:hover {
 
 }
 
+.input {
+    padding-right: 20px, 
+}
+
 /* END of Hero section */
 
 /* 2nd section of food */
@@ -111,8 +115,6 @@ header nav a:hover {
     left: 15px;
     top: 192px;
 }
-
-
 
 .photos p {
     color: #B01B08;
@@ -135,14 +137,21 @@ header nav a:hover {
     top: 15px;
 }
 
+.buttonmember {
+    background: #CE6426;
+    border-radius: 4px;
+    color:#fff;
+    border: 2px solid #CE6426;
+    box-shadow: 0px 2px 0px 0px #B74604;
+    text-decoration: none;
+    padding: 10px 30px;
+    position: relative;
+    top: 35px;
+    left: 50px;
+
+}
+
 /* END of 2nd section of food */
-
-
-
-
-
-
-
 
 
 /* 3rd section of people eating */
