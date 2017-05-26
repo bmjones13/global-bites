@@ -57,7 +57,12 @@ header nav a:hover {
     left: 23px;
     top: 90px;
 }
+@media (max-width: 550px) {
+    .truck {
+    display: none;
+    }
 
+}
 
 .logo {
     position: relative;
@@ -91,9 +96,7 @@ header nav a:hover {
 
 }
 
-.input {
-    padding-right: 20px, 
-}
+
 
 /* END of Hero section */
 
@@ -106,7 +109,7 @@ header nav a:hover {
 }
 .left {
     position: relative;
-    right: 45px;
+    right: 55px;
     top: 192px;
 }
 
@@ -114,6 +117,12 @@ header nav a:hover {
     position: relative;
     left: 15px;
     top: 192px;
+}
+@media (max-width: 1377px) {
+    .right {
+    display: none;
+    }
+
 }
 
 .photos p {
@@ -131,10 +140,23 @@ header nav a:hover {
     top: 200px;
     left: 55px;
 }
+@media (max-width: 1377px) {
+    #textright {
+    display: none;
+    }
+
+}
+
 .jerk {
     position: relative;
     right: 45px;
     top: 15px;
+}
+@media (max-width: 1377px) {
+    .jerk {
+    display: none;
+    }
+
 }
 
 .buttonmember {
@@ -166,6 +188,13 @@ header nav a:hover {
     text-align: center;
     padding: 4em 0;
 }
+@media (max-width: 768px) {
+    .download-app {
+    background-image: url(../images/People_eating.png);
+    background-size: contain;
+    }
+
+}
 
 .buttonpeople {
     background: #CE6426;
@@ -181,6 +210,14 @@ header nav a:hover {
     right: 10px;
 
 }
+@media (max-width: 768px) {
+    .buttonpeople {
+    position: relative;
+    padding: 5px 10px;
+    bottom: -120px;
+    }
+
+}
 
 .download-app p{
     font-size: 18px;
@@ -193,6 +230,15 @@ header nav a:hover {
     left: 195px;
     bottom: -5px;
 }
+@media (max-width: 768px) {
+    .download-app p {
+    font-size: 16px;
+    position: relative;
+    padding: 5px 10px;
+    bottom: 160px;
+    }
+
+}
 
 .phone  {
     position: relative;
@@ -202,13 +248,31 @@ header nav a:hover {
 
 }
 
+@media (max-width: 1228px) {
+    .phone {
+     display: none;
+     
+    }
+
+}
+
 .apps {
     position: relative;
     bottom: -280px;
     right: 50px;
+}
 
+@media (max-width: 768px) {
+    .apps {
+    display: inline;
+    
+     
+    }
 
 }
+
+
+
 /* END of 3rd section of people eating */
 
 /* Infographic section */
