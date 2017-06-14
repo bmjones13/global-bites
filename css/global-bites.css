@@ -49,7 +49,6 @@ header nav a:hover {
     position: relative;
     right: 220px;
     bottom: 16px;
-
 }
 
 .truck {
@@ -57,6 +56,7 @@ header nav a:hover {
     left: 23px;
     top: 90px;
 }
+
 @media (max-width: 550px) {
     .truck {
     display: none;
@@ -68,6 +68,14 @@ header nav a:hover {
     position: relative;
     right: 100px;
     bottom: 30px;
+
+}
+
+@media (max-width: 450px) {
+    .logo {
+    display: block;
+    padding: 2em 0 2em;
+    }
 
 }
 
