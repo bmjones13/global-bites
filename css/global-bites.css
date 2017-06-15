@@ -182,22 +182,15 @@ header nav a:hover {
 
 .download-app {
     background-image: url(../images/People_eating.png);
-    width: 100%;
-    height: 435px;
     background-repeat: no-repeat;
+    background-size: contain;
     background-position: top center;
     background-size: cover;
     text-align: center;
     padding: 4em 0;
 }
-@media (max-width: 768px) {
-    .download-app {
-    background-image: url(../images/People_eating.png);
-    background-size: contain;
-    }
 
-}
-
+    
 .buttonpeople {
     background: #CE6426;
     border-radius: 4px;
